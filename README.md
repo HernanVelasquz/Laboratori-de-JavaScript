@@ -11,5 +11,5 @@ Este respositorio contiene el codigo realizado con la practica guiada por Codigo
 
 | Despliegue | Links |
 |------------|-------|
-| Netlify |         |
-| Respositorio| |
+| Netlify |   https://hernanvelasquezlabjavascript.netlify.app/      |
+| Respositorio| https://github.com/HernanVelasquz/Laboratori-de-JavaScript|
