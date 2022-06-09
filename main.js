@@ -129,7 +129,6 @@
  * Función que inicia Canvas(ancho, alto y el del tablero, ademas se especifica juego 2D
  */
 
-
 (function(){
     self.BoardView = function(canvas,board){
      this.canvas = canvas;
@@ -221,4 +220,3 @@
      }
     }
    })();
-   
