@@ -258,6 +258,21 @@ document.addEventListener("keydown",function(ev){
   board.playing = !board.playing;
 
  }
-
-
 });
+
+/**
+ * Evento listener que carga el  main del juego  y se envía una dirección a la bola
+ * 
+ */
+ board_view.draw();
+ window.requestAnimationFrame(controller);
+ setTimeout(function(){
+   ball.direction = -2;
+ },4000);
+ 
+ //función controladora
+ function controller(){
+   board_view.play(); 
+   window.requestAnimationFrame(controller);
+ 
+ }  
